@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpport" content="with=device-width, initial-scale=1.0">
+        <title>Denise Ozena</title>
+        <link rel="icon" type="image/png" href="denise.png"/>
+        <link rel="stylesheet" href="surprise.css">
+        <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="styleshheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Go Back</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+            <h1>Happy Birthday, Denise</h1>
+            <p>Mahal na Mahal Kita Bday Girl Kagaya ni "love 14". - Jia<br><br>Happy Birthday Bitch, Amen - Memehax</p>
+        </div>
+        </section>
+        <!--------JavaScript for Toggle Menu------>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

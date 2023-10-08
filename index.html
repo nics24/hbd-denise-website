@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpport" content="with=device-width, initial-scale=1.0">
+        <title>Denise Ozena</title>
+        <link rel="icon" type="image/png" href="denise.png"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="styleshheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="surprise.html">SURPRISE</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+            <h1>Happy Birthday, Denise</h1>
+            <p>From : 11-STEMB1</p>
+            <a href="birthday.html" class="hero-btn">See Birthday Messages</a>
+        </div>
+        </section>
+
+        <!----About Denise-->
+        <section class="aboutdenise">
+            <h1>Denise Micaila Santiago Ozena</h1>
+            <div class="row">
+                <div class="about-col">
+                    <h3>Introverted</h3>
+                    <p>She always prefer a quiet and peaceful interaction.</p>
+                </div>
+                <div class="about-col">
+                    <h3>Detail-Oriented</h3>
+                    <p>She's a perfectionist type of person.</p>
+                </div>
+                <div class="about-col">
+                    <h3>Overthinker</h3>
+                    <p>Whenever she's bored or when she's doing nothing, she likes to think of something.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>Made By: Jia Tuanquin</h4>
+            <p>"Denise, I think I deserve and need a libre of Matcha hehe, mwah"</p>
+        </section>
+
+
+        <!--------JavaScript for Toggle Menu------>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
